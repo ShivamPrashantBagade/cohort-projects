@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="app-container">
+        <header>
+          <h1 id="app-name">Review's App</h1>
+        </header>
 
+        <div class="grid-container">
+          <div class="input-side">
+            <div class="input-field-container">
+              <div>
+                <p class="review-for">Reviewer by</p>
+                <input type="text" id="review-by" placeholder="Rohit Sharma" />
+              </div>
+              <div>
+                <p class="review-for">Review for</p>
+                <input
+                  type="text"
+                  id="review-for"
+                  placeholder="Chai Code Cohort"
+                />
+              </div>
+              <div>
+                <p class="review-for">Review</p>
+                <textarea
+                  name=""
+                  id="review"
+                  placeholder="Write your review here....."
+                ></textarea>
+              </div>
+
+              <button id="submit-review-btn">Submit Review</button>
+            </div>
+          </div>
+          <div class="display-side">
+            <h1 id="display-heading">All Reviews Listed</h1>
+
+            <div id="all-review-container">
+              <!-- <div class="review">
+                <h4 class="review-heading">Chai Code Cohort</h4>
+                <p class="review-desc-para">
+                  A review is an evaluation of a publication, product, service,
+                  or company or a critical take on current affairs in
+                  literature, politics or culture.
+                </p>
+                <h6 class="review-author">Review By: Shivam Bagade</h6>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
